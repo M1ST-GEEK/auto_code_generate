@@ -29,5 +29,6 @@ public class OracleGenerator {
         for (String warning : warnings) {
             System.out.println(warning);
         }
+        System.out.println("End");
     }
 }

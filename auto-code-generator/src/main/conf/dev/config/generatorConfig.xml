@@ -35,7 +35,7 @@
 
         <plugin type="tk.mybatis.mapper.generator.MapperPlugin">
             <!--value可以配置继承类-->
-            <property name="mappers" value="true"/>
+            <property name="mappers" value="com.org.wtf.common.dao.CommonMapper"/>
             <property name="caseSensitive" value="true"/>
             <property name="forceAnnotation" value="true"/>
             <property name="beginningDelimiter" value=""/>
@@ -44,18 +44,18 @@
 
         <!--dateBase_settings 数据库设置-->
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-                        connectionURL="jdbc:mysql://11.111.111.111:1111/xxx"
-                        userId="xxxx"
+                        connectionURL="jdbc:mysql://xx.xx.xx.xxx/xxxx"
+                        userId="xxx"
                         password="xxxxx">
         </jdbcConnection>
 
         <!--MyBatis 生成器只需要生成 Model-->
         <javaModelGenerator targetPackage="com.xxx.xxx.sys.model" targetProject="src/test/java"/>
-        <sqlMapGenerator targetPackage="mapper" targetProject="src/test/java"/>
-		<javaClientGenerator targetPackage="com.org.mzh.sys.dao"
-		                             targetProject="src/test/java"
-		                             type="XMLMAPPER"/>
+        <sqlMapGenerator targetPackage="com.xxx.xxx.sys.mapper" targetProject="src/test/java"/>
+        <javaClientGenerator targetPackage="com.xxx.xxx.sys.dao" targetProject="src/test/java" type="XMLMAPPER"/>
+
         <!--tableName 表名称-->
-        <table tableName="table_name"></table>
+        <table tableName="xxx"></table>
+
     </context>
 </generatorConfiguration>
