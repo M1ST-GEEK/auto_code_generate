@@ -15,6 +15,7 @@ import java.util.List;
 //3.设置表名称
 //4.start
 //5.执行完毕如没有文件请刷新整个目录
+
 public class OracleGenerator {
 	public static void main(String[] args) throws Exception {
         System.out.println("Start");
