@@ -44,18 +44,18 @@
 
         <!--dateBase_settings 数据库设置-->
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-                        connectionURL="jdbc:mysql://xx.xx.xx.xxx/xxxx"
-                        userId="xxx"
-                        password="xxxxx">
+                        connectionURL="jdbc:mysql://xx.xx.xxx.xxx/xxx"
+                        userId="xxxx"
+                        password="xxxx">
         </jdbcConnection>
 
         <!--MyBatis 生成器只需要生成 Model-->
-        <javaModelGenerator targetPackage="com.xxx.xxx.sys.model" targetProject="src/test/java"/>
-        <sqlMapGenerator targetPackage="com.xxx.xxx.sys.mapper" targetProject="src/test/java"/>
-        <javaClientGenerator targetPackage="com.xxx.xxx.sys.dao" targetProject="src/test/java" type="XMLMAPPER"/>
+        <javaModelGenerator targetPackage="src.test.java.com.xxx.xxx.sys.model" targetProject="auto-code-generator"/>
+        <sqlMapGenerator targetPackage="src.test.java.com.xxx.xxx.sys.mapper" targetProject="auto-code-generator"/>
+        <javaClientGenerator targetPackage="src.test.java.com.xxx.xxx.sys.dao" targetProject="auto-code-generator" type="XMLMAPPER"/>
 
         <!--tableName 表名称-->
-        <table tableName="xxx"></table>
+        <table tableName="table_name"></table>
 
     </context>
 </generatorConfiguration>
