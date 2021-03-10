@@ -44,9 +44,9 @@
 
         <!--dateBase_settings 数据库设置-->
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-                        connectionURL="jdbc:mysql://xx.xx.xxx.xxx/xxx"
-                        userId="xxxx"
-                        password="xxxx">
+                        connectionURL="jdbc:mysql://xx.xx.xx.xx:/xxx"
+                        userId="xxx"
+                        password="xxx">
         </jdbcConnection>
 
         <!--MyBatis 生成器只需要生成 Model-->
@@ -55,7 +55,7 @@
         <javaClientGenerator targetPackage="src.test.java.com.xxx.xxx.sys.dao" targetProject="auto-code-generator" type="XMLMAPPER"/>
 
         <!--tableName 表名称-->
-        <table tableName="table_name"></table>
+        <table tableName=""></table>
 
     </context>
 </generatorConfiguration>
