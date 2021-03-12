@@ -14,6 +14,7 @@ import ${pkg};
  */
 #if(${table.convert})
 @TableName("${table.name}")
+@Data
 #end
 #if(${superEntityClass})
 public class ${entity} extends ${superEntityClass}#if(${activeRecord})<${entity}>#end {
