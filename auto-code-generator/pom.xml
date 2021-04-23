@@ -28,7 +28,7 @@
 		<poi.version>3.17</poi.version>
 
 		<!-- data -->
-		<mysql-connector-java.version>5.1.38</mysql-connector-java.version>
+		<mysql-connector-java.version>8.0.16</mysql-connector-java.version>
 
 	</properties>
 
