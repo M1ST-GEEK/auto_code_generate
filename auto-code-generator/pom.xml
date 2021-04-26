@@ -23,7 +23,7 @@
 		<shiro.version>1.2.6</shiro.version>
 		<ehcache.version>2.6.11</ehcache.version>
 		<jackson.version>2.6.7</jackson.version>
-		<commons-io.version>2.5</commons-io.version>
+		<commons-io.version>2.7</commons-io.version>
 		<hibernate-validator.version>4.3.2.Final</hibernate-validator.version>
 		<poi.version>3.17</poi.version>
 
